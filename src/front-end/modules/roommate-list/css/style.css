@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+roommate-card {
+  width: 300px !important;
+  overflow: hidden;
+}
+
+.content {
+  padding: 20px;
+  width: 1200px;
+  margin: 50px auto;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 5px solid #000;
+  background-color: aliceblue;
+}
+
+.head {
+  margin-bottom: 30px;
+  height: 50px;
+}
+
+.head .back {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.row .item {
+  width: 300px;
+}
+
+.row .item .add-box {
+  margin-bottom: 30px;
+  border-radius: 45px;
+  height: 200px;
+  border: 3px solid #000;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.row .item .add-box:hover {
+  background-color: lightgreen;
+}
+
+.row .item .text {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row .item .text img {
+  width: 35px;
+  height: auto;
+}
+
+.row .item .text p {
+  font-size: 25px;
+}
+
+.row .item h3 {
+  text-align: left;
+  font-size: 35px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.row .item span {
+  font-size: 20px;
+}
+
+.row .item:last-child .add-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+}
